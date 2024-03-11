@@ -1,0 +1,213 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english,russian]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Large \scshape Ковнеров Владислав Геннадьевич} \\ \vspace{1pt}
+    \textbf{\scshape Аналитик данных} \\ \vspace{1pt}
+    \small +7 926 800 03 88 $|$ \href{mailto:dragonsigh@gmail.com}{\underline{dragonsigh@gmail.com}} $|$ 
+    telegram: \href{https://t.me/dragonattack}{\underline{@dragonattack}} $|$
+    \href{https://github.com/DragonSigh}{\underline{github.com/dragonsigh}}
+\end{center}
+
+
+%-----------SUMMARY-----------
+ \section{Обо мне}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     {Аналитик данных с сильным инженерным бэкраундом и высокими аналитическими способностями, подтвержденными генетическим тестом (выше, чем у 75\% людей). Ключевыми факторами в работе для меня являются улучшение эффективности бизнес-процессов и возможность постоянного профессионального развития.}
+    }}
+ \end{itemize}
+
+
+%-----------HARD SKILLS-----------
+\section{Технические навыки}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C\#, SQL (T-SQL, Postgres), HTML/CSS, R} \\
+     \textbf{Libraries}{: pandas, Selenium, gspread, matplotlib, seaborn, sqlalchemy, reportlab, Scrapy} \\
+     \textbf{Calculus}{: Excel (Power Query, DAX), Google Sheets, A/B tests} \\
+     \textbf{Big Data}{: Airflow} \\
+     \textbf{Visualization}{: Power BI, Tableau} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code, Jupyter, DBeaver} \\
+     \textbf{OS}{: Linux, Windows}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Опыт работы}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Аналитик данных}{сентябрь 2023 -- настоящее время}
+      {Подольская областная клиническая больница}{}
+      \resumeItemListStart
+        \resumeItem{Организовал процесс ETL с оркестрацией задач в Apache Airflow с ежедневным запуском по расписанию, информированию в Telegram, что сократило срок доставки отчётов в подразделения с недели до суток.}
+        \resumeItem{Разработал и внедрил программы на языке Python для автоматизации сбора данных и анализа ключевых показателей эффективности (KPI) больницы с выгрузкой в дашборд Google Spreadsheets, что улучшило рейтинг учреждения и нивелировало ручной труд.}
+        \resumeItem{Организовал ежедневный анализ поступающих телефонных звонков и задач в информационно-технической службе, что позволило руководителю получать оперативную сводную информацию.}
+      \resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Ведущий инженер}{апрель 2021 -- сентябрь 2023}
+      {Подольская областная клиническая больница}{}
+      \resumeItemListStart
+        \resumeItem{Обустроил и обслуживал информационную инфраструктуру (парк из 80 компьютеров и серверов) главного подразделения больницы.}
+        \resumeItem{Управлял и организовывал медицинские данные в информационных системах (ЕМИАС МО, Мегаклиника), обеспечивал информационную безопасность.}
+        \resumeItem{Создал и поддерживал официальный сайт учреждения на VPS, с помощью Яндекс.Метрики анализировал вовлеченность посетителей.}
+        \resumeItem{Обучил более 100 человек работе в медицинских и административных информационных системах, провел более 60 семинаров, что позволило кардинально повысить уровень знаний и навыков сотрудников.}
+        \resumeItem{Получил благодарность от Министра здравоохранения Московской области за достигнутые успехи.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Проектная деятельность}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\href{https://www.kaggle.com/code/vladkovnerov/mobile-game-a-b-testing-with-cookie-cats}{\underline{\textbf{EDA и A/B тест мобильной игры Cookie Cats}}} {(Kaggle)} $|$ \emph{Python, numpy, matplotlib, statsmodel}}{2023}
+          \resumeItemListStart
+            \resumeItem{Задачи: провести разведочный анализ данных поведения игроков и протестировать гипотезу о влиянии внутриигровых изменений на retention rate.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\href{https://github.com/DragonSigh/portfolio-and-projects/tree/main/Analyzing\%20the\%20Effectiveness\%20of\%20Marketing\%20Campaigns\%20on\%20the\%20Internet}{\underline{\textbf{Анализ маркетинговых кампаний для автодилера}}} {(Github)} $|$ \emph{Excel (Power Query), Power BI, Python}}{2023}
+          \resumeItemListStart
+            \resumeItem{Задачи: подготовить и очистить данные, провести разведочный анализ данных и ответить на вопросы заказчика, построить дашборд на основе сквозной аналитики.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Курсы и тренинги}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Google}{}
+      {Google Data Analytics Professional Certificate}{июль 2023 -- март 2024}
+    \resumeSubheading
+      {DataCamp}{}
+      {Data Analyst with SQL}{январь 2024 -- настоящее время}
+    \resumeSubSubheading
+      {Data Analyst with Python}{декабрь 2023 -- январь 2024}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
