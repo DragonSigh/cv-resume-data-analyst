@@ -134,12 +134,11 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Python, C\#, SQL (T-SQL, Postgres), HTML/CSS, R} \\
-     \textbf{Libraries}{: pandas, Selenium, gspread, matplotlib, seaborn, sqlalchemy, reportlab, Scrapy} \\
-     \textbf{Calculus}{: Excel (Power Query, DAX), Google Sheets, A/B tests} \\
-     \textbf{Big Data}{: Airflow} \\
-     \textbf{Visualization}{: Power BI, Tableau} \\
-     \textbf{Developer Tools}{: Git, Docker, VS Code, Jupyter, DBeaver} \\
-     \textbf{OS}{: Linux, Windows}
+     \textbf{Libraries}{: pandas, selenium, gspread, matplotlib, seaborn, sqlalchemy, reportlab, scrapy} \\
+     \textbf{ETL/ELT}{: Apache Airflow, Google Dataflow, Apache Beam} \\
+     \textbf{Visualization}{: Google Looker Studio, Microsoft Power BI, Tableau} \\
+     \textbf{DWH}{: Google BigQuery} \\
+     \textbf{Tools}{: Microsoft Excel (Power Query, DAX), Google Sheets, Git, Docker, CS Code, Colab, DBeaver, Confluence, Jira} \\
     }}
  \end{itemize}
 
@@ -147,13 +146,23 @@
 %-----------EXPERIENCE-----------
 \section{Опыт работы}
   \resumeSubHeadingListStart
+
     \resumeSubheading
-      {Аналитик данных}{сентябрь 2023 -- настоящее время}
+      {Аналитик данных}{март 2024 -- настоящее время}
+      {ХИЛБИ (HealthTech)}{}
+      \resumeItemListStart
+        \resumeItem{Разработал пайплайны (Dataflow, Beam, BigQuery) для анализа синхронизаций фитнес-браслетов и приложения, паттернов зарядки и ношения, выявив тренды использования и сегментировав пользователей.}
+        \resumeItem{Определил метрики клиентского опыта (LT, churn, retention, reconnect, DAU/WAU/MAU, ANPS и др.), создал дашборд CX, обогатил дашборд техподдержки новыми срезами.}
+        \resumeItem{Провел более 20 комплексных исследований пользовательского поведения (Colab) и рыночного потенциала.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Аналитик данных}{сентябрь 2023 -- март 2024}
       {Подольская областная клиническая больница}{}
       \resumeItemListStart
-        \resumeItem{Организовал процесс ETL с оркестрацией задач в Apache Airflow с ежедневным запуском по расписанию, информированию в Telegram, что сократило срок доставки отчётов в подразделения с недели до суток.}
-        \resumeItem{Разработал и внедрил программы на языке Python для автоматизации сбора данных и анализа ключевых показателей эффективности (KPI) больницы с выгрузкой в дашборд Google Spreadsheets, что улучшило рейтинг учреждения и нивелировало ручной труд.}
-        \resumeItem{Организовал ежедневный анализ поступающих телефонных звонков и задач в информационно-технической службе, что позволило руководителю получать оперативную сводную информацию.}
+        \resumeItem{Организовал пайплайн (Airflow) с алертингом в Telegram, сократив срок доставки отчётов в подразделения с недели до суток.}
+        \resumeItem{Автоматизировал сбор данных и анализ KPI с выгрузкой в дашборд, улучшив рейтинг учреждения.}
+        \resumeItem{Внедрил ежедневный многоканальный анализ обращений в IT-службу для оперативного информирования.}
       \resumeItemListEnd
 
 % -----------Multiple Positions Heading-----------
@@ -170,15 +179,13 @@
       {Ведущий инженер}{апрель 2021 -- сентябрь 2023}
       {Подольская областная клиническая больница}{}
       \resumeItemListStart
-        \resumeItem{Обустроил и обслуживал информационную инфраструктуру (парк из 80 компьютеров и серверов) главного подразделения больницы.}
-        \resumeItem{Управлял и организовывал медицинские данные в информационных системах (ЕМИАС МО, Мегаклиника), обеспечивал информационную безопасность.}
-        \resumeItem{Создал и поддерживал официальный сайт учреждения на VPS, с помощью Яндекс.Метрики анализировал вовлеченность посетителей.}
-        \resumeItem{Обучил более 100 человек работе в медицинских и административных информационных системах, провел более 60 семинаров, что позволило кардинально повысить уровень знаний и навыков сотрудников.}
+        \resumeItem{Администрировал информационную инфраструктуру (80+ ПК и серверов), управлял медицинскими данными (ЕМИАС МО, Мегаклиника), обеспечивал информационную безопасность.}
+        \resumeItem{Создал и поддерживал сайт учреждения, анализировал вовлеченность посетителей ( Яндекс.Метрика).}
+        \resumeItem{Провел более 60 семинаров по работе с информационными системами, обучив 100+ сотрудников.}
         \resumeItem{Получил благодарность от Министра здравоохранения Московской области за достигнутые успехи.}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Проектная деятельность}
@@ -195,19 +202,19 @@
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
-
 %-----------EDUCATION-----------
 \section{Курсы и тренинги}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Google}{}
-      {Google Data Analytics Professional Certificate}{июль 2023 -- март 2024}
+      {Business Intelligence}{март 2024 -- сентябрь 2024}
+      \resumeSubSubheading
+      {Data Analytics Professional}{июль 2023 -- март 2024}
     \resumeSubheading
       {DataCamp}{}
-      {Data Analyst with SQL}{январь 2024 -- настоящее время}
-    \resumeSubSubheading
-      {Data Analyst with Python}{декабрь 2023 -- январь 2024}
+      {Data Analyst with Python, Data Analyst with SQL}{декабрь 2023 -- январь 2025}
   \resumeSubHeadingListEnd
 
 %-------------------------------------------
+
 \end{document}
